@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Hotel Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Hotel Test(failed)">
+    <classes>
+      <class name="org.test.BookingDetailsPageTest">
+        <methods>
+          <include name="afterScreen"/>
+          <include name="BookingDetails"/>
+          <include name="beforeScreen"/>
+        </methods>
+      </class> <!-- org.test.BookingDetailsPageTest -->
+      <class name="org.test.SearchHotelPageTest">
+        <methods>
+          <include name="beforeScreen"/>
+          <include name="afterScreen"/>
+          <include name="searchHotel"/>
+        </methods>
+      </class> <!-- org.test.SearchHotelPageTest -->
+      <class name="org.test.HotelBookingEndToEndTest">
+        <methods>
+          <include name="browerclose"/>
+          <include name="browerLaunch"/>
+          <include name="completeHotelBooking"/>
+        </methods>
+      </class> <!-- org.test.HotelBookingEndToEndTest -->
+      <class name="org.test.LogutPageTest">
+        <methods>
+          <include name="beforeScreen"/>
+          <include name="logOut"/>
+          <include name="afterScreen"/>
+        </methods>
+      </class> <!-- org.test.LogutPageTest -->
+      <class name="org.test.SearchHotelConfirmPageTest">
+        <methods>
+          <include name="beforeScreen"/>
+          <include name="SearchHotelConfirmPage"/>
+        </methods>
+      </class> <!-- org.test.SearchHotelConfirmPageTest -->
+    </classes>
+  </test> <!-- Hotel Test(failed) -->
+</suite> <!-- Failed suite [Hotel Automation Suite] -->
