@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Hotel Automation Suite" >
+  <test  name="Hotel Tests" >
+    <classes>
+      <class name="org.test.LoginPageTest"/>
+      <class name="org.test.SearchHotelPageTest"/>
+      <class name="org.test.SearchHotelConfirmPageTest"/>
+      <class name="org.test.BookingDetailsPageTest"/>
+      <class name="org.test.LogutPageTest"/>
+      <class name="org.test.HotelBookingEndToEndTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
